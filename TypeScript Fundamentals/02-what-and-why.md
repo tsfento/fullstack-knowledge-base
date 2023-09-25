@@ -1,3 +1,5 @@
+# What & Why?
+
 01. Typescript is a "superset" to Javascript
 02. Typescript adds new features
 03. It adds static typing, hence the name

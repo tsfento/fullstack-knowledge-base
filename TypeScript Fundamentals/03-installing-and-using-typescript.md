@@ -1,3 +1,5 @@
+# Installing & Using TypeScript
+
 01. Typescript is installed with node through npm
 02. You can install it globally or per project
 03. Typescript does not run directly in the browser
