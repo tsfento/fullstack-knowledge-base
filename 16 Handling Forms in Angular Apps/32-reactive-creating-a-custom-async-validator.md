@@ -5,3 +5,5 @@
 04. forbiddenEmails(control: FormControl): Promise<any> | Observable<any>
 05. With a Promise, instead of returning you would resolve (or reject, i guess) your value
 06. resolve({'emailIsForbidden': true}) or resolve(null);
+07. You add asynchronous validators with the third argument on your control
+08. 'email': new FormControl(null, [Validators.required, Validators.email], this.forbiddenEmails),
