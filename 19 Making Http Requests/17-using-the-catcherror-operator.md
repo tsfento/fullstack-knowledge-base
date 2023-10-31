@@ -7,3 +7,6 @@
 06. rxjs docs suggests: throw new Error(errorRes)
 07. Could also throw new Error(errorRes.message)
 08. Whatever you want to pass
+09. After further investigation, throwError is not deprecated, just Max's usage is
+10. It now takes a factory function instead of an object
+11. return throwError(() => errorRes);
