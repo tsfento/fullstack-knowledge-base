@@ -3,3 +3,4 @@
 02. It's an object that contains a preloadingStrategy property
 03. { preloadingStrategy: PreloadAllModules }
 04. This lets angular preload modules to make navigation faster while still lazy loading
+05. You can make your own preloadingStrategy but this was not explored
